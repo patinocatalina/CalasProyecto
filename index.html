@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nido — Sillones de autor</title>
+
+  <!-- Tipografías de Google Fonts: una serif elegante para títulos y una sans simple para textos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Nuestro archivo de estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== MENÚ ===== -->
+  <header class="nav">
+    <a href="#" class="logo">Nido</a>
+    <nav>
+      <a href="#coleccion">Colección</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- ===== PORTADA (HERO) ===== -->
+  <section class="hero">
+    <div class="hero-texto">
+      <p class="etiqueta">Diseño y fabricación propia</p>
+      <h1>Sillones hechos para quedarse</h1>
+      <p>Tapizados a mano en nuestro taller. Envío sin cargo en todo AMBA.</p>
+      <a href="#coleccion" class="boton">Ver colección</a>
+    </div>
+    <div class="hero-imagen">
+      <!-- Poné tu foto en la carpeta img con este nombre -->
+      <img src="img/hero.jpg" alt="Sillón de lino color arena en un living luminoso">
+    </div>
+  </section>
+
+  <!-- ===== CATEGORÍAS ===== -->
+  <section class="seccion" id="coleccion">
+    <p class="etiqueta">Elegí tu estilo</p>
+    <h2>Nuestra colección</h2>
+
+    <div class="categorias">
+      <article class="tarjeta">
+        <img src="img/dos-cuerpos.jpg" alt="Sillón de dos cuerpos">
+        <div class="tarjeta-texto">
+          <h3>Dos y tres cuerpos</h3>
+          <p>Líneas simples y almohadones mullidos para livings de cualquier tamaño.</p>
+          <a href="#" class="link">Ver modelos</a>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <img src="img/esquinero.jpg" alt="Sillón esquinero">
+        <div class="tarjeta-texto">
+          <h3>Esquineros</h3>
+          <p>Módulos que se adaptan a tu espacio. Elegís medida, tela y orientación.</p>
+          <a href="#" class="link">Ver modelos</a>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <img src="img/butaca.jpg" alt="Butaca individual">
+        <div class="tarjeta-texto">
+          <h3>Butacas</h3>
+          <p>El rincón de lectura que te faltaba, en pana, lino o bouclé.</p>
+          <a href="#" class="link">Ver modelos</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS (texto + imagen) ===== -->
+  <section class="split" id="nosotros">
+    <div class="split-imagen">
+      <img src="img/taller.jpg" alt="Tapicero trabajando en el taller">
+    </div>
+    <div class="split-texto">
+      <p class="etiqueta">Desde nuestro taller</p>
+      <h2>Hechos para durar</h2>
+      <p>Usamos estructuras de madera maciza, espumas de alta densidad y telas resistentes al uso diario. Cada sillón se arma a pedido, así que podés elegir medidas y colores.</p>
+      <a href="#contacto" class="boton">Conocé el proceso</a>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTOS DESTACADOS ===== -->
+  <section class="seccion fondo-oscuro">
+    <p class="etiqueta">Lo que más se lleva</p>
+    <h2>Los más elegidos</h2>
+
+    <div class="productos">
+      <div class="producto">
+        <img src="img/producto1.jpg" alt="Sillón Duna">
+        <h4>Sillón Duna</h4>
+        <p class="precio">$ 890.000</p>
+      </div>
+      <div class="producto">
+        <img src="img/producto2.jpg" alt="Butaca Brisa">
+        <h4>Butaca Brisa</h4>
+        <p class="precio">$ 420.000</p>
+      </div>
+      <div class="producto">
+        <img src="img/producto3.jpg" alt="Esquinero Ceibo">
+        <h4>Esquinero Ceibo</h4>
+        <p class="precio">$ 1.350.000</p>
+      </div>
+      <div class="producto">
+        <img src="img/producto4.jpg" alt="Sillón Terra">
+        <h4>Sillón Terra</h4>
+        <p class="precio">$ 760.000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="contacto" id="contacto">
+    <div class="contacto-caja">
+      <h2>¿Dudas con las medidas?</h2>
+      <p>Escribinos y te ayudamos a elegir el sillón ideal para tu espacio. También podés visitar el showroom con turno.</p>
+      <a href="#" class="boton">Escribinos</a>
+    </div>
+  </section>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div>
+      <a href="#" class="logo">Nido</a>
+      <p>Sillones de autor, hechos en Buenos Aires.</p>
+      <form class="newsletter">
+        <input type="email" placeholder="Tu email">
+        <button type="submit">Suscribirme</button>
+      </form>
+    </div>
+    <div>
+      <h5>Ayuda</h5>
+      <a href="#">Envíos</a>
+      <a href="#">Medios de pago</a>
+      <a href="#">Cuidado de telas</a>
+    </div>
+    <div>
+      <h5>Contacto</h5>
+      <a href="#">hola@nido.com</a>
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </footer>
+
+</body>
+</html>
